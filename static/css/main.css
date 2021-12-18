@@ -3,10 +3,11 @@
 }#site-name{
 	font-size:24px;
 	text-decoration:none
+}#links{
+	margin-top:40px
 }#links a{
 	margin-left:10px;
-	color:gray;
-	margin-top:40px
+	color:gray
 }#links a:first-child{
 	margin-left:0px
 }a{
