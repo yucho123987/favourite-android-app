@@ -5,7 +5,8 @@
 	text-decoration:none
 }#links a{
 	margin-left:10px;
-	color:gray
+	color:gray;
+	margin-top:40px
 }#links a:first-child{
 	margin-left:0px
 }a{
