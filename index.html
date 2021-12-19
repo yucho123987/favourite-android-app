@@ -5,7 +5,7 @@ title: 首页
 <div id="article-list">
 	{% for post in site.posts -%}
 	<div class="article-item">
-		<img src="{{ post.icon }}" /><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+		<img src="{{ site.url }}/static/icon/{{ post.icon }}" /><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
 	{%- endfor %}
 	</div>
 </div>
