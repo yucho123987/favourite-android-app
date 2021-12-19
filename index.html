@@ -2,4 +2,10 @@
 layout: page
 title: 首页
 ---
-<p>test</p>
+<div id="article-list">
+	{% if site.posts %}
+	{% for post in site.posts %}
+	<a href="{{ post.url }}">{{ post.title }}</a>
+	{% endfor %}
+	{% endif %}
+</div>
