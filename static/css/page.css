@@ -1,9 +1,10 @@
 #article-list{
 	width:100%;
-	text-align:center
+	text-align:center;
+	margin-top:10px
 }#article-list .article-item{
 	display:inline-block;
-	width:80%;
+	width:90%;
 	padding:10px;
 	box-sizing:border-box;
 	text-align:left;
