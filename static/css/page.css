@@ -2,12 +2,18 @@
 	width:100%;
 	text-align:center
 }#article-list .article-item{
+	display:inline-block;
 	width:80%;
 	padding:10px;
 	box-sizing:border-box;
 	text-align:left;
-	box-shadow:0 0 2px #888888
+	box-shadow:0 0 2px #888888;
+	border-radius:10px
 }#article-list .article-item img{
 	width:60px;
-	height:60px
+	height:60px;
+	border-radius:5px;
+	margin-right:5px
+}#article-list *{
+	vertical-align:middle
 }
